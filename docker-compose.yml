@@ -3,12 +3,12 @@ version: '3'
 services:
   backend:
     build:
-      context: ./Back-End
+      context: ./backend
       dockerfile: Dockerfile
     image: sonicboom24/backend:1.0
 
   frontend:
     build:
-      context: ./Front-End
+      context: ./frontend
       dockerfile: Dockerfile
     image: sonicboom24/frontend:1.0
