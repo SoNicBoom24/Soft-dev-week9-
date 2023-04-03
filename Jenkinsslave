@@ -3,8 +3,8 @@ pipeline {
         environment {
             DOCKER_CONTAINER_NAME_FRONTEND = "frontend_server"
             DOCKER_CONTAINER_NAME_BACKEND = "backend_server"
-            DOCKER_IMAGE_NAME_FRONTEND     = "sonicboom24/backend:1.0"
-            DOCKER_IMAGE_NAME_BACKEND     = "sonicboom24/frontend:1.0"
+            DOCKER_IMAGE_NAME_FRONTEND     = "sonicboom24/frontend:1.0"
+            DOCKER_IMAGE_NAME_BACKEND     = "sonicboom24/backend:1.0"
         }
 
         stages {
@@ -39,6 +39,6 @@ pipeline {
                     }
                 }
             }
-        
+
         }
 }
