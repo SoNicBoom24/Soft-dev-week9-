@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./Back-End
+      dockerfile: Dockerfile
+    image: sonicboom24/backend:1.0
+
+  frontend:
+    build:
+      context: ./Front-End
+      dockerfile: Dockerfile
+    image: sonicboom24/frontend:1.0
